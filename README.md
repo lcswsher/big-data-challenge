@@ -2,7 +2,7 @@
 
 # Big Data Homework - "Alexa, can you handle big data?"
 
-#### Homework Due on 10/02/2021
+### Homework Due on 10/02/2021
 
 Many of Amazon's shoppers depend on product reviews to make a purchase. Amazon makes these datasets publicly available.  
 
@@ -11,7 +11,7 @@ Many of Amazon's shoppers depend on product reviews to make a purchase. Amazon m
 
 
 
-##### Folder Level 1: "level_one_cameras.ipynb" and  "level_one_watches.ipynb"
+### Folder Level 1: "level_one_cameras.ipynb" and  "level_one_watches.ipynb"
 
 - Created DataFrames to match the production-ready tables from two of the big Amazon customer review datasets.  The two amazon review files selected are for cameras and watches.   
 - Both files have been transformed so the datasets are in alignment with the provided [schema file](../Resources/schema.sql).  To accomplish this, recasting was preformed in PySpark using Google Colab to reformat the data columns into either an integer or date format.  The four dataframe tables were successfully loaded into the RDS instance.  
@@ -25,7 +25,7 @@ Many of Amazon's shoppers depend on product reviews to make a purchase. Amazon m
 
   <img src="images/postgress_test_queries.PNG" height="250">
 
-##### Folder Level 2:  "level_two_cameras_and_watches.ipynb"
+### Folder Level 2:  "level_two_cameras_and_watches.ipynb"
 
 * Observations while performing statistical analysis on Amazons vine review process.   The analysis did not detect any potential bias or any untrustworthy information pertaining to Vine membership.    
   * The average Star Rating for Vine Members vs Non Members for both cameras and watches is fairly even at ~4 %.   While reviewing the average star rating there does not appear to be any significant bias toward Vine Members. 
